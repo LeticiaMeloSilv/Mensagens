@@ -29,18 +29,13 @@ body{
 .divContainer{
     display: grid;
     width: 100%;
-    padding: 10px;
+    padding: 3px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40% 40% 30%;
     grid-template-areas: 
     "destinatario notificacao tempo"
     "mensagem mensagem mensagem"
     "remetente remetente remetente";
-}
-.imagem{
-    height: 80px;
-    max-width: 80px;
-    border-radius: 50%;
 }
 .card img{
     max-width: 80px;
@@ -70,6 +65,6 @@ body{
     place-self: start;
     border-radius: 20%;
     padding: 4px;
-background-color: lavender;
+    background-color: lavender;
 }
 
